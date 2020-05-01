@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+        .heading {
+             background-image: linear-gradient(white,gray);
+             padding: 14px 16px;
+             text-align: center;
+             color:black;
+             box-shadow: 5px 5px 7px black;
+           
+        }
+        .footer{
+            background-image:linear-gradient(to bottom right,gray,white);
+            padding: 200px 180px;
+             text-align: center;
+             color:black;
+             margin-top: 20px;
+             box-shadow: 5px 5px 7px black;
+           
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .clearfix:after{
+            content:"";
+            display: table;
+            clear:both;
+        }
+        .card{
+            background-color:rgb(254, 246, 250);
+            padding: 20px;
+            margin-top: 20px;
+            background-image: linear-gradient(to bottom right,rgb(254,246,250) ,gray);
+            box-shadow: 5px 5px 7px black;
+        }
+        .leftbar{
+           
+            width:75%;
+            float: left;
+        }
+        .rightbar{
+            width:25%;
+            float:left;
+            padding-left: 20px;
+            
+        }
+        @media screen and ( max-width:800px)
+        {
+            .leftbar,.rightbar{
+            width:100%;
+            padding:0;
+            }
+        }
+       
+       @media screen and ( max-width:950px)
+        {
+            .navbar li{
+                width:100%;
+                float: none;
+            }
+            .navbar{
+                box-shadow: 2px 3px 7px gray;
+            }
+        }
+        .link a{
+             text-decoration: none;
+             color: black;
+             text-transform: capitalize;
+        }
+        .link a:hover{
+             color: white;
+             background-color: black;
+        }
+        .logo{
+            float: left;
+            padding:20px;
+        }
+        .navbar li a, .dropbtn{
+            text-decoration:none;
+            color:white;
+            background-color: black;
+            padding: 14px 16px;
+            display: block;
+            padding-right: 100px;
+           
+           
+        }
+        .navbar ul{
+            padding: 0px;
+            margin:0px;
+            margin-top: 20px;
+            list-style-type: none;
+            overflow: hidden;
+            
+            
+           
+            
+            
+        }
+       
+        .navbar a:hover, a:active{
+            background-color: white;
+            color:black;
+            
+        
+        }
+        .navbar li{
+            float:left;
+           
+           
+            
+        
+        }
+      
+        
+        .footer-column{
+            width: 25%;
+            padding: 1px 5px;
+            float: left;
+            color:black;
+        }
+        @media screen and (max-width:1000px)
+        {
+            .footer-column{
+                float: none;
+                width: 200px;
+            }
+            .footer{
+                padding:16px 14px;
+            }
+        }
+        li.dropdown{
+            display:block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color:white;
+            min-width: 310px;
+            box-shadow:0px 8x 16px 0px rgba(0,0,0,0.2);
+            z-index:1;
+            opacity: 0.6;
+
+        }
+        .dropdown-content a{
+
+        color:black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+       
+        }
+        
+        .dropdown-content a:hover{
+            background-color:white;
+            opacity: 1;
+           
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        
+        }
+        @media screen and ( max-width:600px)
+        {
+            .dropdown-content{
+               width: 93%;
+            
+            }
+        }
+        .ullist{
+        line-height: 60px;
+        }
+      
+        
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="heading">
+        
+            <img src="logo.png" alt="logo" style="padding:0px;float:left">
+       
+        <h1 style="text-shadow:4px 4px 5px white;">Nasirabad Govt. High School,Chattagram</h1>
+        <p style="text-shadow:4px 4px 5px white;"> "Government of the People's Republic of Bangladesh"</p>
+    </div>
+    <div class="navbar">
+        <ul>
+       <li> <a href="index.html">Home</a></li>
+        <li> <a href="Admisssion.html" >Admission</a></li>
+            <li> <a href="About.html">About</a></li>
+                <li> <a href="#">Contact</a></li>
+                    <li class="dropdown"> <a class="dropbtn" href="#">Important Links</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div></li>
+        </ul>
+
+    </div>
+   
+    <div class="clearfix">
+     <div class="leftbar">
+       <div class="card">
+        <a href="#">Admission Form Download Here..</a><br>
+        <h4>Institute Code</h4>
+        <ul class="ullist">
+            <li>Code: 14[Chittagong Collegiate School]</li>
+            <li>Code: 15[Government Muslim High School</li>
+            <li>Code: 16[Dr. Khastogir Govt. Girl's High School</li>
+            <li>Code: 17[Nasirabad Govt. High School]</li>
+        </ul>
+      </div>
+     
+    </div>
+
+
+    
+    <div class="rightbar">
+        <div class="card">
+            <h3 align="center">Notification</h3>
+         <ol type="1" class="link">
+             <li><a href="#">notice about corona epidemic</a></li>
+             <li><a href="#">notice about online video class</a></li>
+             <li><a href="#">routine of the online video classes</a></li>
+         </ol>
+
+    </div>
+     <div class="card">
+         <h4 align="center">Log In</h4>
+         <form>
+          <div>  <label for="fname">Name</label></div>
+        <div>  <input type="text" placeholder="Your name"></div>
+        <div>
+            <label for="fname">Password</label>
+        </div>
+        <div>
+            <input type="password" placeholder="password">
+        </div>
+             <button>Sign In</button>
+             <button>Reset</button>
+         </form>
+     </div>
+    </div>
+</div>
+
+    
+
+    
+    
+    <div class="footer">
+    
+        <div class="footer-column">
+           
+               <h3> Our School</h3>         
+            <ul>
+               <li>School Directory</li>
+               <li>School Boundaries</li>
+               <li>School Safety</li>
+               <li>Registration & Relocation</li>
+            </ul>
+           
+        </div>
+        <div class="footer-column">
+            <h3>Result</h3>
+            <ul>
+                <li>Result List</li>
+                <li>Result Search</li>
+                <li>S.S.C Result</li>
+                <li>J.S.C Result</li>
+                <li>P.S.C Result</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <p>Address: Nasirabad Govt High School Rd, Chittagong, Bangladesh.<br>
+                Phone: +88-031-654131
+                </p>
+        </div>
+        
+      
+    </div>
+   
+
+   
+</body>
+</html>
